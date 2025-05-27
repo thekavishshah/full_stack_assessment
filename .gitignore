@@ -47,4 +47,4 @@ venv/
 
 # Logs
 logs/
-*.log
+*.lognode_modules/
