@@ -16,3 +16,7 @@ uvicorn nlp_server:app --reload
 # from repo root
 cp .env.example .env        # optional – tweak ports or API URL here
 docker compose up --build   # brings up http://localhost:3000 (UI) + :8000 (API)
+
+
+Example: "Show me all diabetic patients over 50"
+→ Returns simulated FHIR bundle with condition: diabetic and age.gt: 50
