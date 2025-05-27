@@ -1,6 +1,43 @@
 # Ignore node modules
 node_modules/
 
+# Ignore Next.js build output
+frontend/.next/
+
+# Ignore binary modules
+*.node
+
+# Ignore Python virtual environments
+venv/
+.env
+
+# MacOS files
+.DS_Store
+
+# Logs
+logs/
+*.log
+```gitignore
+# Ignore node modules
+node_modules/
+
+# Ignore binary modules
+*.node
+
+# Ignore Python virtual environments
+venv/
+.env
+
+# MacOS files
+.DS_Store
+
+# Logs
+logs/
+*.log
+```gitignore
+# Ignore node modules
+node_modules/
+
 # Ignore Python virtual environments
 venv/
 .env

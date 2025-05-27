@@ -1,0 +1,5 @@
+fastapi==0.110.1
+uvicorn[standard]==0.27.1
+spacy==3.7.4          # latest patch
+pydantic==2.6.4       # spaCy pin is <2.7
+python-multipart==0.0.9
